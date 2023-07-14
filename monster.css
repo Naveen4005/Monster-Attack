@@ -1,0 +1,50 @@
+body{
+    background-color: #FCFFE7;
+}
+p{
+    font-size: 20px;
+    font-family: 'Permanent Marker', cursive;
+    margin: 0px 0px -15px -160px;
+    color: #2B3467;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.HPbar{
+    height: 50px;
+    width: 300px;
+    background-color: #BAD7E9;
+    margin: 20px;
+    border-radius: 5px;
+}
+#monsterHP{
+    height: 50px;
+    width: 300px;
+    background-color: #EB455F;
+    border-radius: 5px;
+}
+#playerHP{
+    height: 50px;
+    width: 300px;
+    background-color: #EB455F;
+    border-radius: 5px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    background-color: #2B3467;
+    color: white;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #3c457b;
+    cursor: pointer;
+}
